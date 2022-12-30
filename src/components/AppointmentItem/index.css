@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.each-appointment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 8px;
+  border-color: #b5b7c4;
+  border-width: 2px;
+  border-style: solid;
+  margin: 5px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-style {
+  color: #171f46;
+  font-weight: bold;
+  font-family: roboto;
+  margin: 5px;
+}
+
+.date-style {
+  color: #b5b7c4;
+  font-family: roboto;
+}
+
+.star-style {
+  width: 25px;
+  height: 25px;
+}
+
+.star-btn {
+  border-width: 0px;
+  background-color: transparent;
+}

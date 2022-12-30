@@ -1,0 +1,93 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  margin: 50px;
+}
+
+.appointment-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.appointment-input-section {
+  width: 50%;
+}
+
+.add-appointment-heading {
+  font-family: roboto;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.input-label {
+  color: #b5b7c4;
+}
+
+.title-input-style {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+}
+
+.add-btn {
+  background-color: #8b5cf6;
+  border-radius: 5px;
+  border-width: 0px;
+  color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+}
+
+.appointment-style {
+  width: 100%;
+  align-self: center;
+}
+
+.horizontal-line {
+  border-color: #b5b7c4;
+  border-style: solid;
+  width: 100%;
+  margin: 10px;
+}
+
+.starred-btn {
+  border-radius: 20px;
+  border-color: #9796f0;
+  background-color: transparent;
+  border-style: solid;
+  padding: 5px;
+  width: 80px;
+  color: #9796f0;
+  margin: 10px;
+}
+
+.appointment-top-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.appointment-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
